@@ -7,61 +7,74 @@
     tools:context=".MainActivity">
 
  <!-- ctrl + alt + / : format dong code -->
+
     <TextView
-        android:textSize="30sp"
-        android:text="View 1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentRight="true"
-        android:textSize="30sp"
-        android:text="View 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-       android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:text="View 6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_centerVertical="true"
-        android:textSize="30sp"
-        android:text="View 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:textSize="30sp"
-        android:text="View 7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:text="View 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
+        android:id="@+id/textviewblue"
         android:layout_centerInParent="true"
+        android:textColor="#ffff"
+        android:background="#0F37AF"
         android:textSize="30sp"
-        android:text="View 9"
+        android:text="BLUE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_above="@+id/textviewblue"
+       android:layout_alignLeft="@+id/textviewblue"
+       android:id="@+id/textviewgreen"
+       android:layout_centerInParent="true"
+       android:textColor="#ffff"
+       android:background="#4A870D"
+       android:textSize="30sp"
+       android:text="GREEN"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_above="@+id/textviewgreen"
+       android:layout_alignLeft="@+id/textviewgreen"
+       android:layout_centerInParent="true"
+       android:textColor="#ffff"
+       android:background="#D5373C"
+       android:textSize="30sp"
+       android:text="RED"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_below="@+id/textviewblue"
+       android:layout_alignLeft="@+id/textviewblue"
+       android:id="@+id/textvieworange"
+       android:layout_centerInParent="true"
+       android:textColor="#ffff"
+       android:background="#D89737"
+       android:textSize="30sp"
+       android:text="ORANGE"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_below="@+id/textvieworange"
+       android:layout_alignLeft="@+id/textvieworange"
+       android:id="@+id/textviewgray"
+       android:layout_centerInParent="true"
+       android:textColor="#ffff"
+       android:background="#55524D"
+       android:textSize="30sp"
+       android:text="GRAY"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:layout_below="@+id/textviewgray"
+       android:layout_alignLeft="@+id/textviewgray"
+       android:id="@+id/textviewprink"
+       android:layout_centerInParent="true"
+       android:textColor="#ffff"
+       android:background="#811391"
+       android:textSize="30sp"
+       android:text="PRINK"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+
+
+
+
 
 </RelativeLayout>
